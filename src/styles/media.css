@@ -1,0 +1,149 @@
+@media(max-width : 1250px){
+    .dist_curves{
+        grid-template-columns: repeat(1,1fr);
+        gap : 1.6rem;
+    }
+    .head2{
+        font-size: 2rem;
+    }
+}
+
+@media(max-width : 1070px){
+    .head2{
+        font-size: 1.6rem;
+    }
+    .btn{
+        font-size: 1.4rem;
+    }
+    .tabhead{
+        font-size: 1.4rem !important;
+    }
+}
+
+@media(max-width : 1001px){
+    .navs{
+        display: none;
+    }
+    .output{
+        grid-column: 1/13;
+    }
+    .resNav,.menuhiddensmall{
+        display: block;
+    }
+    .landing{
+        font-size: 4rem;
+    }
+    .feades{
+        font-size: 1.4rem;
+    }
+}
+
+@media(max-width : 850px){
+    .table thead tr th, .table tbody tr td{
+        font-size: 1.2rem !important;
+    }
+    .landing{
+        font-size: 3.2rem;
+    }
+    .des{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .checklists{
+        font-size: 1.4rem;
+    }
+    .check{
+        width: 1.6rem;
+    }
+}
+
+@media(max-width : 750px){
+    .des{
+        font-size: 1.2rem;
+    }
+    .solution{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media(max-width : 720px){
+    .col_display{
+        display: none;
+    }
+    .dist_curves{
+        grid-column: 1/13;
+    }
+    .fealinkstop{
+        display: none;
+    }
+    .headers{
+        padding: 4.8rem;
+        padding-top: 0;
+    }
+    .des{
+        text-align: center !important;
+    }
+    .howuse{
+        grid-template-columns: repeat(1,1fr);
+        width: 100% !important;
+    }
+    .listitem{
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width : 650px){
+    .menuicon{
+        width: 70%;
+    }
+    .menuhiddensmall{
+        right: 4%;
+    }
+}
+
+@media(max-width : 550px){
+    #fea,.whatSolve{
+        padding: 4.8em;
+    }
+    .checklists{
+        font-size: 1.2rem;
+    }
+    .footer{
+        padding: 4.8rem;
+    }
+    .landing{
+        font-size: 2.8rem;
+    }
+    
+}
+@media(max-width : 450px){
+    .output{
+        padding: 0 !important;
+    }
+    .out{
+        border-radius: 0 !important;
+
+    }
+    .menuhiddensmall{
+        top: 2%;
+    }
+    #fea,.whatSolve{
+        padding: 3.2em;
+    }
+    .checklists{
+        font-size: 1rem;
+    }
+    .footlinks{
+        flex-direction: column;
+    }
+}
+
+@media(max-width : 400px){
+    .dist_curves{
+        margin-top: 2.4rem;
+    }
+    .landing{
+        font-size: 2.4rem;
+    }
+}

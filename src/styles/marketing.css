@@ -1,0 +1,140 @@
+.navi{
+    border-bottom: 0.1rem solid var(--color-second);
+}
+.content{
+    grid-column: 1/3;
+    width: 100%;
+    height: 90vh;
+}
+.imag{
+    grid-column: 3/7;
+    background-image: url('./../icons/home1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.des{
+    font-size: 1.6rem;
+    text-align: start !important;
+}
+.nav{
+    height: 10vh;
+    background-color: var(--color-white);
+    border-bottom: 0.1rem solid var(--color-third);
+}
+.headers{
+    height: 90vh;
+    background-color: var(--color-second-light);
+    background-image: linear-gradient(to bottom, #ffffff00, #000000cb),url("./../icons/land1.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+.link__,.linktofollow{
+    color: var(--color-first);
+}
+.link__:last-child{
+    background-color: var(--color-first);
+    padding: 0.5rem 2rem;
+    color: var(--color-white);
+    border-radius: 1rem;
+}
+.iconland,.gauss{
+    width: 100%;
+}
+
+.landing{
+    font-size: 4.8rem;
+    color: var(--color-white);
+    text-align: center;
+    line-height: 1.5;
+}
+.des{
+    font-size: 1.6rem;
+    color: var(--color-third);
+}
+.linktofollow{
+    font-size: 1.6rem;
+    color: var(--color-white);
+    padding: 1rem 4rem;
+    background-color: var(--color-white);
+    color: var(--color-first);
+}
+
+.decenter{
+    text-align: center !important;
+}
+.head2__big{
+    font-size: 3.2rem !important;
+}
+.feahead{
+    position: relative;
+}
+
+.flowIcon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -50;
+    opacity: 10%;
+}
+.feaimg___{
+    width: 100%;
+}
+.featlist{
+    margin-top: 4.8rem;
+}
+.dashboard{
+    border-radius: 1rem;
+}
+.desdash{
+    font-size: 1.6rem;
+    color: var(--color-second);
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.prom{
+    font-size: 9.6rem;
+}
+
+.whatSolve{
+    padding: 0 9.6rem 9.6rem 9.6rem;
+}
+.feades{
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    font-style: italic;
+}
+
+.solution{
+    margin-top: 4.8rem;
+    margin-bottom: 4.8rem;
+}
+.howuse{
+    width: 120vh;
+    margin-top: 4.8rem;
+
+}
+.checklists{
+    font-size: 1.6rem;
+}
+.footer{
+    background-color: var(--color-first);
+}
+.head2_white,.link__white{
+    color: var(--color-white);
+}
+
+.solve{
+    position: relative;
+}
+.robo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    z-index: -50;
+    opacity: 30%;
+}

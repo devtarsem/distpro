@@ -1,0 +1,58 @@
+.exp{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-first);
+}
+.colData{
+    background-color: var(--color-third);
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    overflow: auto;
+    border: 0.2rem solid var(--color-third);
+}
+.essentials__{
+    background-color: var(--color-white);
+    border-radius: 1rem;
+}
+.selectDistToexp{
+    grid-column: 1/3;
+}
+
+.exportExcel{
+    position: fixed;
+    right: 1.6rem;
+    bottom: 1.6rem;
+    background-color: var(--color-second);
+}
+.displyloadcont{
+    grid-column: 1/10;
+}
+.exp{
+    position: relative;
+}
+.exportMenu{
+    position: absolute;
+    top: 2%;
+    right: 1%;
+    z-index: 100;
+    cursor: pointer;
+    background-color: var(--color-third);
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.exp{
+    position: relative;
+}
+.mininavOfExp{  
+    position: absolute;
+    width: 40vh;
+    height: 100vh;
+    background-color: var(--color-third);
+    top: 0;
+    left: 0;
+    z-index: 300;
+    overflow: scroll;
+    overflow-x: hidden;
+}
