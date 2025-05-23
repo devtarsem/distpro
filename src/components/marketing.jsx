@@ -9,8 +9,7 @@ import Mhead from './marketingHead';
 import gauss from './../icons/gauss.png'
 import check from './../icons/check.png'
 import robo from './../icons/robo.svg'
-
-
+// import wine from '/src/wine.csv'
 
 function Marketing(){
     return(
@@ -22,14 +21,18 @@ function Marketing(){
             <a href='#solve' className='link link__'>What we solve</a>
             <a href='#use' className='link link__'>How to use</a>
             <Link to='/distributions' className='link link__'>Try now!</Link>
-
+            <a href='https://firebasestorage.googleapis.com/v0/b/imageprocess-bb374.firebasestorage.app/o/images%2FWineQT.csv?alt=media&token=a1defef3-2670-4c69-bd56-e7c391219a15' className='down btn'>Download sample dataset</a>
+           
           </div>
         </nav>
         <header className='headers  gap96'>
           <div className='content flex flex-2 flex-dir gap16'>
             <h1 className='landing'>Is your models lagging in accuracy, <br/>you might chossing wrong distributions.</h1>
             <p className='des'>There are huge chances that your data and model distributions are lagging, use our service to visulize the best distribution and get accurate results</p>
-            <Link className='link linktofollow' to='/distributions'>Try now!</Link>
+            <div className='flex flex-2 gap16'>
+              <Link className='link linktofollow' to='/distributions'>Try now!</Link>
+            </div>
+
           </div>
           
         </header>
@@ -49,7 +52,7 @@ function Marketing(){
                 <img src={fea1} className='dashboard feaimg___' alt='flower'/>
               </div>
               <div className='cont'>
-                <p className='desdash decenter'>We have stunning dashboard for you, in which you easily import your data in excel format once data loads it render your dolumns on the left side navigation, nowyou can plot each colun data to you chossen distribution by selecting distribution on the top right corner.</p>
+                <p className='desdash decenter'>We have stunning dashboard for you, in which you easily import your data in excel format once data loads it render your columns on the left side navigation, now you can plot each column data to you chossen distribution by selecting distribution on the top right corner.</p>
               </div>
             </div>
 
@@ -64,7 +67,7 @@ function Marketing(){
                 <img src={fea2} className='dashboard feaimg___' alt='flower'/>
               </div>
               <div className='cont'>
-                <p className='desdash decenter'>Guess what you can add you probability distribution points to your excel sheet and ge ready in your hand in just 1 click, all distributions are available here to every column in your dataset.</p>
+                <p className='desdash decenter'>Guess what you can add the probability distribution points to your excel sheet and get ready in your hand in just 1 click, all distributions are available here to every column in your dataset.</p>
               </div>
             </div>
 
@@ -78,7 +81,7 @@ function Marketing(){
           <Mhead head={'What we solve'} />
           <div className='solution grid grid-2-col gap96'>
             <div className='solve flex flex-dir flex-2'>
-              <p className='feades'>Suppose you have a contineous datase in which you want to predict the contineous output and you have to use some ML model now you have 2 options one is blindly apply the fit and get the result and itultimatelly turns up into a disaster, so what actually model hs to be you have to apply disribution check on features and that is what the super teadious task you have tons of tons of iterations and passing formulation PDF's on excel is mind boggling and here comes our solution we will give you the distribution of feature in just one click, and also provide feature of adding that genrated PDF's to you excel along with Png of the distributions you can compare you plotswith the standard distributions and imeediaelly figure out what distribution you have to use to really excel in your model. Like for example on right hand side you have a gaussian plot of chlorides features and it is clearthat this is notat all gaussian distribution so here you can other distributions for better accuracy.</p>
+              <p className='feades'>Suppose you have a contineous database in which you want to predict the contineous output and you have to use some ML model now you have 2 options one is blindly apply the fit and get the result and turns up into a disaster, so you have to apply disribution check on features and that is what the super teadious task you have tons of tons of iterations and passing formulation PDF's on excel is mind boggling and here comes our solution we will give you the distribution of feature in just one click, and also provide feature of adding that genrated PDF's to you excel along with Png of the distributions you can compare you plots with the standard distributions and immediately figure out what distribution you have to use to really excel in your model. Like for example on right hand side you have a gaussian plot of chlorides features and it is clear that this is not all gaussian distribution so here you can use other distributions for better accuracy.</p>
               <img src={robo} className='robo' alt='robot'/>
             </div>
             <div className='markl flex flex-2'>
@@ -114,7 +117,7 @@ function Marketing(){
 
             <div className='listitem flex flex-3 gap16'>
               <img src={check} className='check' alt='check'/>
-              <p className='checklists'>To add PDF's in excel clcik on bottom right corner add DF'sto excel button.</p>
+              <p className='checklists'>To add PDF's in excel clcik on bottom right corner add PDF's to excel button.</p>
             </div>
 
             <div className='listitem flex flex-3 gap16'>
