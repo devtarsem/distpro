@@ -51,6 +51,9 @@
   .gap64{
     gap: 6.4rem;
   }
+  .gap96{
+    gap: 9.6rem;
+  }
   .grid{
     display: grid;
   }
@@ -65,6 +68,9 @@
   }
   .grid-3-col{
     grid-template-columns: repeat(3, 1fr);
+  }
+  .grid-5-col{
+    grid-template-columns: repeat(5, 1fr);
   }
   .grid-2-col{
     grid-template-columns: repeat(2, 1fr);
