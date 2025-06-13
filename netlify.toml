@@ -1,9 +1,10 @@
 # netlify.toml
 [build]
-  command = "npm run build"    # ya tera actual build command
-  publish = "build"            # CRA default build folder
+  command = "npm run build"   # Vite का build command
+  publish = "dist"            # Vite build के बाद बनता है dist/
 
+# Optional: JS assets पे सही Content-Type header
 [[headers]]
-  for = "/static/js/*.js"
+  for = "/assets/*.js"
   [headers.values]
     Content-Type = "application/javascript; charset=UTF-8"
