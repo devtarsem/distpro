@@ -18,8 +18,13 @@
 }
 .nav{
     height: 10vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
     background-color: var(--color-white);
-    border-bottom: 0.1rem solid var(--color-third);
+    border-bottom: 0.2rem solid var(--color-third);
 }
 .headers{
     height: 90vh;
@@ -27,6 +32,7 @@
     background-image: linear-gradient(to bottom, #ffffff00, #000000cb),url("./../icons/land1.jpg");
     background-position: top;
     background-size: cover;
+    margin-top: 10vh;
 }
 
 .link__,.linktofollow{
@@ -178,4 +184,152 @@
 .listitem{
     font-size: 1.4rem;
     margin-bottom: 1rem;
+}
+.disply1{
+    padding: 0 12.6rem;
+}
+.card{
+    width: auto;
+    margin: 0 auto;
+    height: 70vh;
+    /* background-color: aqua; */
+    
+}
+
+.iconhead{
+    background-image: linear-gradient(to left bottom, #3d365c86, #7e4585de),url('./../icons/card.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 4.8rem;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+.iconFea{
+    width: 20%;
+    fill: var(--color-white) !important;
+}
+.feahead{
+    color: var(--color-white);
+    text-align: center;
+    line-height: 1.5;
+}
+.fealist{
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 1.5;
+}
+.card{
+    position: relative;
+}
+.nextbtn{
+    position: absolute;
+    top: 50%;
+    right: -25%;
+    transform: translate(-50%, -50%);
+    border: none;
+    width: 7vh;
+    height: 7vh;
+    font-family: 'Montserrat';
+    background-color: var(--color-first);
+    color: var(--color-white);
+    font-weight: 700;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.prevbtn{
+    position: absolute;
+    top: 50%;
+    left: -11%;
+    transform: translate(-50%, -50%);
+    border: none;
+    width: 7vh;
+    height: 7vh;
+    font-family: 'Montserrat';
+    background-color: var(--color-first);
+    color: var(--color-white);
+    font-weight: 700;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.fixture{
+    width: 80vh;
+}
+.disply1{
+    border-right: 0.1rem solid var(--color-first);
+
+}
+.display2{
+    position: relative;
+}
+.displaycircle{
+    position: absolute;
+    width: 55%;
+    height: 65%;
+    background-color: var(--color-first);
+    border-radius: 50%;
+    z-index: 60;
+    border: 4rem solid var(--color-second);
+    outline: 4rem solid var(--color-second-light);
+    opacity: .7;
+}
+
+.phone{
+    width: 45%;
+    z-index: 70;
+}
+.innercard{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+.designcut1{
+    position: absolute;
+    width: 50vh;
+    height: 10vh;
+    background-color: var(--color-first);
+    bottom: -8%;
+    left: -10%;
+    /* z-index: 20; */
+    transform: rotate(15deg);
+    outline: 2rem solid var(--color-first-light);
+
+}
+.designcut2{
+    position: absolute;
+    width: 50vh;
+    height: 10vh;
+    background-color: var(--color-second);
+    bottom: -12%;
+    right: -10%;
+    z-index: 20;
+    transform: rotate(-15deg);
+    outline: 2rem solid var(--color-second-light);
+}
+
+.fealist_{
+    transition: all 0.2s;
+}
+
+.innercard{
+    border: 0.1rem solid var(--color-first);
+}
+
+.innercard {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animateMove {
+  animation-name: move;
+}
+
+@keyframes move{
+    0%{
+        transform: scale(1.1);
+        opacity: 0.5;
+    }
+   
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
 }

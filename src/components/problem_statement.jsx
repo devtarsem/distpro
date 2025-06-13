@@ -1,6 +1,8 @@
 import './../utils/util.css'
 import './../styles/marketing.css'
 import { useState } from 'react';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 function Problem(){
 

@@ -8,6 +8,13 @@
     }
 }
 
+@media(max-width : 1200px){
+    .disply1{
+        padding: 0 9.6rem;
+    }
+}
+
+
 @media(max-width : 1070px){
     .head2{
         font-size: 1.6rem;
@@ -17,6 +24,10 @@
     }
     .tabhead{
         font-size: 1.4rem !important;
+    }
+    .displaycircle{
+        outline: 2rem solid var(--color-second-light);
+
     }
 }
 
@@ -35,6 +46,31 @@
     }
     .feades{
         font-size: 1.4rem;
+    }
+    .disply1{
+        padding: 0 6.4rem;
+    }
+}
+
+@media(max-width : 925px){
+    .featlist{
+        grid-template-columns: repeat(1,1fr);
+        gap: 4.8rem;
+    }
+    .card{
+        width: 50vh;
+    }
+    .phone{
+        width: 40%;
+    }
+    .displaycircle{
+        width: 55%;
+        height: 75%;
+        outline: 4rem solid var(--color-second-light);
+
+    }
+    .disply1{
+        border: none;
     }
 }
 
@@ -63,6 +99,12 @@
     }
     .solution{
         grid-template-columns: repeat(1,1fr);
+    }
+    .displaycircle{
+        width: 50%;
+        height: 65%;
+        outline: 4rem solid var(--color-second-light);
+
     }
 }
 
@@ -100,6 +142,21 @@
     .menuhiddensmall{
         right: 4%;
     }
+    .display2{
+        display: none;
+    }
+    .cor{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .btns,.explain{
+        grid-column: 1/2;
+    }
+    .explain{
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+    .btns{
+        border-radius: 0.5rem 0.5rem 0 0;
+    }
 }
 
 @media(max-width : 550px){
@@ -115,7 +172,36 @@
     .landing{
         font-size: 2.8rem;
     }
-    
+    .card{
+        width: 100%;
+    }
+    .features{
+        padding: 2.4rem !important;
+    }
+    .whatSolve {
+        gap: 4.8rem;
+    }
+    .disply1{
+        padding: 0 2.4rem;
+    }
+    .nextbtn{
+        right: -10%;
+    }
+    .prevbtn{
+        left: 0;
+    }
+    .howuse {
+        padding-top: 0;
+        margin-top: -0.8rem;
+    }
+    .checklists{
+        font-size: 1.6rem !important;
+        text-align: start !important;
+    }
+    .lesto{
+        align-items: none !important;
+        justify-content: none !important;
+    }
 }
 @media(max-width : 450px){
     .output{
@@ -137,6 +223,12 @@
     .footlinks{
         flex-direction: column;
     }
+    .designcut1,.designcut2{
+        display: none;
+    }
+    .features{
+        padding: 1rem !important;
+    }
 }
 
 @media(max-width : 400px){
@@ -145,5 +237,11 @@
     }
     .landing{
         font-size: 2.4rem;
+    }
+    .nextbtn{
+        right: -20%;
+    }
+    .prevbtn{
+        left: -5%;
     }
 }
